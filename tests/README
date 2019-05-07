@@ -1,0 +1,3 @@
+This directory contains ready to use and run tests and benchmarks. 
+The benchmarks are also setup as tests, refer to the documentation for benchmark versions most suitable for simulations (without the overhead associated with testing).
+Except for "examples" directory in geometry_testing and LBM_testing directory that needs to be updated all tests are automated and they pass. Users are highly encouraged to report any cases of failure.
