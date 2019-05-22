@@ -9,7 +9,7 @@
 
 import subprocess, glob
 
-path = '/Users/atruszkowska/projects/LBM_C++/array_v1/tests/benchmarks/'
+path = './'
 
 # Compiler options
 cx = 'g++'

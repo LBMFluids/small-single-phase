@@ -6,7 +6,7 @@
 # - The entire python side has an awkward dimension flip (x becomes y compared to C++ interface) - to be resolved in the future
 # - Even worse, objects and walls need a flip but arrays do not
 
-# Last modified: 04/24/2019
+# Last modified: 05/22/2019
 
 import subprocess, glob
 from geom_test import *
@@ -19,7 +19,7 @@ def tst_pss(res):
 
 ### Input 
 # Path to the main directory
-path = '/Users/atruszkowska/projects/LBM_C++/array_v1/tests/geometry_tests/'
+path = './'
 # Compiler options
 cx = 'g++'
 std = '-std=c++11'

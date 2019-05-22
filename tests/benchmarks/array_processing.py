@@ -3,7 +3,7 @@
 import sys
 from functools import partial
 # Path to custom python modules
-src_path = '/Users/atruszkowska/projects/LBM_C++/array_v1/tests/benchmarks/lbm_python/'
+src_path = './lbm_python/'
 sys.path.insert(0, src_path)
 
 import matplotlib.pylab as plt

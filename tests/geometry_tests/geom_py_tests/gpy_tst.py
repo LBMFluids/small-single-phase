@@ -1,10 +1,10 @@
 #!/usr/bin/python2.7
 
 # Tests for the geom_test.py module
-# Last modified: 04/16/2019
+# Last modified: 05/22/2019
 
 import sys 
-src_path = '/Users/atruszkowska/projects/LBM_C++/array_v1/tests/geometry_tests/'
+src_path = '../'
 sys.path.insert(0, src_path)
 
 from geom_test import *
