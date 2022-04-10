@@ -118,7 +118,7 @@ void Fluid<Lx, Ly, Nd>::compute_vel(grid_2D& vel, const std::vector<double>& Cij
 		for (size_t j=0; j<Lx+1; j++){
 			for (size_t k=0; k<Nd; k++)
 				vel[i][j] += f[i][j][k]*Cij[k];
-			vel[i][j] *= rho[i][j];
+			vel[i][j] /= rho[i][j];
 		}
 	}
 }
@@ -137,8 +137,8 @@ void Fluid<Lx, Ly, Nd>::compute_macroscopic()
 				uy[i][j] += f[i][j][k]*Cy[k];
 				rho[i][j] += f[i][j][k];
 			}
-			ux[i][j] *= rho[i][j];
-			ux[i][j] *= rho[i][j];
+			ux[i][j] /= rho[i][j];
+			ux[i][j] /= rho[i][j];
 		}
 	}
 }
